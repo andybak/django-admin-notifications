@@ -1,0 +1,7 @@
+{% if notifications %}
+    <div id='admin-notifications'>
+        {% for notification in notifications %}
+            <p class="errornote">{{notification|safe}}</p>
+        {% endfor %}
+    </div>
+{% endif %}
