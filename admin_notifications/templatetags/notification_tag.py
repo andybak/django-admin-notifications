@@ -1,7 +1,5 @@
 from django import template
 
-from linkcheck.models import Url
-
 register = template.Library()
 
 @register.inclusion_tag('admin_error_notifications.html')
