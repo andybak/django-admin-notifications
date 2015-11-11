@@ -25,7 +25,7 @@ add the tag to your template. I customised the admin index template and placed t
     {% block content %}
     <!-- here's the tag you add -->
     {% error_notifications %}
-    <div id=''content-main">
+    <div id="content-main">
 
 in urls.py::
 
